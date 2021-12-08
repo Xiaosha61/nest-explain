@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { MailboxService } from 'src/apartment/mailbox.service';
+import { MailboxService } from 'src/multi-providers-in-one-module/apartment/mailbox.service';
 
 @Injectable()
 export class DeliveryService {
